@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "${workspaceFolder}/shree.html", // <-- This should be the path of the index.html file relative to the workspace
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
